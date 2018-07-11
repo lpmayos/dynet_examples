@@ -1,0 +1,11 @@
+ 2138  sudo apt-get install python3.4-venv
+ 2139  python3 -m venv env
+ 2140  source env/bin/activate
+ 2141  python3 -m pip install --upgrade pip
+ 2143  python3 -m pip install jupyter
+ 2144  jupyter notebook
+ 2145  sudo apt-get update
+ 2146  sudo apt-get install python-pip build-essential cmake mercurial
+ 2148  pip install Cython
+ 2149  pip install git+https://github.com/clab/dynet#egg=dynet
+
